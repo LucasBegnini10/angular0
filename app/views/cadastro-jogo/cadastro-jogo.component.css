@@ -1,0 +1,57 @@
+body{
+    background-image: url(src/assets/img/fundo.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formulario{
+    height: 500px;
+    width: 1000px;
+    background-color: #007fff;
+    border: 10px solid white;
+    border-radius: 20px;
+}
+
+.formulario{
+    padding: 50px;
+}
+.formulario .titulo p{
+    font-weight: bold;
+    color: black;
+    font-size:30px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.camposFormulario {
+    margin-bottom: 50px;
+}
+.camposFormulario .campo{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.camposFormulario .campo p{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.camposFormulario .campo input{
+    width: 40%;
+}
+.botoes{
+    display: flex;
+    justify-content: space-around;
+}
+.botoes button{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    width: 150px;
+    height: 60px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}

@@ -1,0 +1,33 @@
+body{
+    background-image: url(/assets/img/fundo.png);
+    background-size: cover;
+   
+}
+#login .container #login-row #login-column #login-box {
+  margin-top: 50px;
+  max-width: 600px;
+  height: 320px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+#login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -85px;
+    font-size: 30px;
+  }
+.btCadastro{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.btCadastro button{
+  cursor: pointer;
+  background-color:#EAEAEA;
+  color: #17a2b8;
+  font-weight: bold;
+  border: 2px #17a2b8 solid;
+  padding: 10px;
+  border-radius: 10px ;
+}

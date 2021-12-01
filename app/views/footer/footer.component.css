@@ -1,0 +1,53 @@
+mat-toolbar{
+    background-color: #007FFF;
+}
+mat-toolbar{
+    height: 20%;
+    background-color:#007FFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+mat-toolbar-row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.infoHeader p{
+    text-align:center;
+    color: white;
+    cursor: pointer;
+}
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+.emailFooter p{
+    color: white;
+}
+.emailFooter input{
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    border: 2px white solid;
+    border-radius: 20px;
+}
+.redesFooter mat-icon{
+    font-size: 40px;
+    padding-left: 20px;
+    margin-left: 40px;
+    color: white;
+    cursor: pointer;
+    
+    
+}
+.redesFooter p{
+    color: white;
+}

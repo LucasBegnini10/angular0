@@ -1,0 +1,74 @@
+<mat-toolbar>
+    <mat-toolbar-row>
+
+        <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+            <mat-icon style="color: white;">menu</mat-icon>
+          </button>
+          <mat-menu #menu="matMenu">
+            <button mat-menu-item>
+              <mat-icon>email</mat-icon>
+              <span>Email</span>
+            </button>
+            <button mat-menu-item>
+              <mat-icon>phone</mat-icon>
+              <span>Telefone</span>
+            </button>
+            <button mat-menu-item>
+              <mat-icon>person</mat-icon>
+              <span>Minha Conta</span>
+            </button>
+            <a class="cadastroGame"routerLink="/cadastro-jogo">
+              <button mat-menu-item>
+              <mat-icon>videogame_asset</mat-icon>
+              <span >Cadastro de Jogo</span>
+              </button>
+            </a> 
+          
+            </mat-menu>
+          
+
+        <div class="search">
+            <mat-icon>search</mat-icon>
+            
+        
+            <mat-form-field>
+                <mat-label>Procurando algo?</mat-label>
+                <input type="search" matInput placeholder="Digite aqui">
+                
+              </mat-form-field>
+        </div>
+
+        <div class="logo">
+            <a routerLink=""><img src="assets/img/logo.png" alt=""></a>
+        </div>
+
+        <div class="contaHeader">
+            <div class="iconeContaHeader">
+                <mat-icon>person</mat-icon>
+            </div>
+            <div class="linksContaHeader">
+                <a routerLink="/login">Login</a>
+                <br>
+                <a routerLink="/cadastro">Cadastro</a>
+            </div>
+            
+
+        </div>
+
+        <div class="contatosHeader">
+            <a href="#"><mat-icon>email</mat-icon></a>
+            <a href="#"><mat-icon>phone</mat-icon></a>
+            <a href="#"><mat-icon>location_on</mat-icon></a>
+        </div>
+
+    </mat-toolbar-row>
+</mat-toolbar>
+
+<mat-toolbar class="nav">
+    <a href="#">Início</a>
+    <a routerLink="/departamentos">Departamentos</a>
+    <a href="#">Promoções</a>
+    <a href="#">Contatos</a>
+    <a routerLink="/login">Login</a>
+
+</mat-toolbar>

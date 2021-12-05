@@ -10,27 +10,27 @@
             <div class="camposFormulario">
                 <div class="campo">
                     <p>ID</p>
-                    <input id="inputId" type="text">
+                    <input id="inputId" class ="inputFormulario" type="text">
                 </div>
                 <div class="campo">
                     <p>Nome do Jogo</p>
-                    <input type="text">
+                    <input id="inputNome" class ="inputFormulario" type="text">
                 </div>
                 <div class="campo">
                     <p>Tipo</p>
-                    <input type="text">
+                    <input id="inputTipo" class ="inputFormulario" type="text">
                 </div>
                 <div class="campo">
                     <p>Empresa Desenvolvedora</p>
-                    <input type="text">
+                    <input id="inputEmpresa" class ="inputFormulario" type="text">
                 </div>
             </div>
            
             <div class="botoes">
-                <button type="button" onclick="alert('Você clicou em EXIBIR!')">Exibir</button>
-                <button type="button" onclick="alert('Você clicou em CADASTRAR!')">Cadastrar</button>
-                <button type="button" onclick="alert('Você clicou em ATUALIZAR!')">Atualizar</button>
-                <button type="button" onclick="alert('Você clicou em APAGAR!')">Apagar</button>
+                <button (click)="exibir()">Exibir</button>
+                <button (click)="cadastrar()">Cadastrar</button>
+                <button (click)="atualizar()">Atualizar</button>
+                <button (click)="apagar()">Apagar</button>
             </div>
     </div>
 
